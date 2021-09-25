@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ArchiVerssae</title>
+    <link>https://verssae.github.io/</link>
+    <description>Recent content on ArchiVerssae</description>
+    <image>
+      <url>https://verssae.github.io/verssae.png</url>
+      <link>https://verssae.github.io/verssae.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 25 Sep 2021 21:26:33 +0900</lastBuildDate><atom:link href="https://verssae.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Intro</title>
+      <link>https://verssae.github.io/posts/intro/</link>
+      <pubDate>Sat, 25 Sep 2021 21:26:33 +0900</pubDate>
+      
+      <guid>https://verssae.github.io/posts/intro/</guid>
+      <description>Name Hansae Ju
+print(&amp;quot;hello world&amp;quot;) </description>
+    </item>
+    
+    
+  </channel>
+</rss>
