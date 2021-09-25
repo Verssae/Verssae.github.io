@@ -1,1 +1,1 @@
-[{"content":"Name Hansae Ju\nprint(\u0026quot;hello world\u0026quot;) ","permalink":"https://verssae.github.io/posts/intro/","summary":"Name Hansae Ju\nprint(\u0026quot;hello world\u0026quot;) ","title":"Intro"}]
+[{"content":" 로컬 호스트에 키 생성  1  ssh-keygen    원격 호스트에 public key 복사  1  ssh-copy-id i- ~/.ssh/id_rsa.pub \u0026lt;username\u0026gt;@\u0026lt;remote-server\u0026gt;   로컬 호스트에서 원격 호스트로 ssh 접속  1  ssh \u0026lt;remote-server\u0026gt;   ","permalink":"https://verssae.github.io/posts/ssh/","summary":"ssh로 원격 서버에 편하게 접속하게 만들기","title":"SSH 접속하기"}]
