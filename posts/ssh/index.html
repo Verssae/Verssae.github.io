@@ -33,7 +33,7 @@
 <meta name=twitter:title content="SSH 접속하기">
 <meta name=twitter:description content="ssh로 원격 서버에 편하게 접속하게 만들기">
 <script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"https://verssae.github.io/posts/"},{"@type":"ListItem","position":2,"name":"SSH 접속하기","item":"https://verssae.github.io/posts/ssh/"}]}</script>
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"SSH 접속하기","name":"SSH 접속하기","description":"ssh로 원격 서버에 편하게 접속하게 만들기","keywords":["ssh","usage"],"articleBody":" 로컬 호스트에 키 생성  1  ssh-keygen    원격 호스트에 public key 복사  1  ssh-copy-id i- ~/.ssh/id_rsa.pub @   로컬 호스트에서 원격 호스트로 ssh 접속  1  ssh    ","wordCount":"25","inLanguage":"en","datePublished":"2021-09-25T23:14:26+09:00","dateModified":"2021-09-25T23:14:26+09:00","author":{"@type":"Person","name":"Verssae"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://verssae.github.io/posts/ssh/"},"publisher":{"@type":"Organization","name":"ArchiVerssae","logo":{"@type":"ImageObject","url":"https://verssae.github.io/verssae.png"}}}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"SSH 접속하기","name":"SSH 접속하기","description":"ssh로 원격 서버에 편하게 접속하게 만들기","keywords":["ssh","usage"],"articleBody":" 로컬 호스트에 키 생성  $ ssh-keygen 원격 호스트에 public key 복사  $ ssh-copy-id -i ~/.ssh/id_rsa.pub @ 로컬 호스트에서 원격 호스트로 ssh 접속  $ ssh  ","wordCount":"25","inLanguage":"en","datePublished":"2021-09-25T23:14:26+09:00","dateModified":"2021-09-25T23:14:26+09:00","author":{"@type":"Person","name":"Verssae"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://verssae.github.io/posts/ssh/"},"publisher":{"@type":"Organization","name":"ArchiVerssae","logo":{"@type":"ImageObject","url":"https://verssae.github.io/verssae.png"}}}</script>
 </head>
 <body id=top>
 <script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
@@ -79,37 +79,16 @@ SSH 접속하기
 <div class=post-content><ol>
 <li>로컬 호스트에 키 생성</li>
 </ol>
-<div class=highlight><div style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4>
-<table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0>
-<pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
-</span></code></pre></td>
-<td style=vertical-align:top;padding:0;margin:0;border:0;width:100%>
-<pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>ssh-keygen
-</code></pre></td></tr></table>
-</div>
-</div><ol>
+<div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-zsh data-lang=zsh>$ ssh-keygen
+</code></pre></div><ol start=2>
 <li>원격 호스트에 public key 복사</li>
 </ol>
-<div class=highlight><div style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4>
-<table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0>
-<pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
-</span></code></pre></td>
-<td style=vertical-align:top;padding:0;margin:0;border:0;width:100%>
-<pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>ssh-copy-id i- ~/.ssh/id_rsa.pub &lt;username&gt;@&lt;remote-server&gt;
-</code></pre></td></tr></table>
-</div>
-</div><ol start=3>
+<div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-zsh data-lang=zsh>$ ssh-copy-id -i ~/.ssh/id_rsa.pub &lt;username&gt;@&lt;remote-server&gt;
+</code></pre></div><ol start=3>
 <li>로컬 호스트에서 원격 호스트로 ssh 접속</li>
 </ol>
-<div class=highlight><div style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4>
-<table style=border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block><tr><td style=vertical-align:top;padding:0;margin:0;border:0>
-<pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1
-</span></code></pre></td>
-<td style=vertical-align:top;padding:0;margin:0;border:0;width:100%>
-<pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>ssh &lt;remote-server&gt;
-</code></pre></td></tr></table>
-</div>
-</div>
+<div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-zsh data-lang=zsh>$ ssh &lt;remote-server&gt;
+</code></pre></div>
 </div>
 <footer class=post-footer>
 <ul class=post-tags>
