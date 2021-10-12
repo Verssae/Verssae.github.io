@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ASE on ArchiVerssae</title>
+    <link>https://verssae.github.io/tags/ase/</link>
+    <description>Recent content in ASE on ArchiVerssae</description>
+    <image>
+      <url>https://verssae.github.io/verssae.png</url>
+      <link>https://verssae.github.io/verssae.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 29 Sep 2021 15:51:37 +0900</lastBuildDate><atom:link href="https://verssae.github.io/tags/ase/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ASE 2021 트렌드 조사</title>
+      <link>https://verssae.github.io/posts/ase2021trend/</link>
+      <pubDate>Wed, 29 Sep 2021 15:51:37 +0900</pubDate>
+      
+      <guid>https://verssae.github.io/posts/ase2021trend/</guid>
+      <description>ASE 2021 논문들의 타이틀 및 초록을 보고 트렌드를 파악한다.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -9,7 +9,25 @@
       <link>https://verssae.github.io/verssae.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 28 Sep 2021 10:17:59 +0900</lastBuildDate><atom:link href="https://verssae.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Oct 2021 13:45:36 +0900</lastBuildDate><atom:link href="https://verssae.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Python] 데스크톱 알림 보내기</title>
+      <link>https://verssae.github.io/posts/py-notifier/</link>
+      <pubDate>Sun, 03 Oct 2021 13:45:36 +0900</pubDate>
+      
+      <guid>https://verssae.github.io/posts/py-notifier/</guid>
+      <description>Python으로 데스크톱 푸시 알림을 보내보자</description>
+    </item>
+    
+    <item>
+      <title>ASE 2021 트렌드 조사</title>
+      <link>https://verssae.github.io/posts/ase2021trend/</link>
+      <pubDate>Wed, 29 Sep 2021 15:51:37 +0900</pubDate>
+      
+      <guid>https://verssae.github.io/posts/ase2021trend/</guid>
+      <description>ASE 2021 논문들의 타이틀 및 초록을 보고 트렌드를 파악한다.</description>
+    </item>
+    
     <item>
       <title>Hugo-blog (README)</title>
       <link>https://verssae.github.io/posts/hugo/</link>
