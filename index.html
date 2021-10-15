@@ -1,161 +1,317 @@
-<!doctype html><html lang=en dir=auto>
-<head><meta charset=utf-8>
-<meta http-equiv=x-ua-compatible content="IE=edge">
-<meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
-<meta name=robots content="index, follow">
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
 <title>ArchiVerssae</title>
-<meta name=keywords content="Blog,Dev,Computer Science">
-<meta name=description content="Verssae's Archives">
-<meta name=author content="Verssae">
-<link rel=canonical href=https://verssae.github.io/>
-<link crossorigin=anonymous href=/assets/css/stylesheet.min.ad95e19ec439a858b841e1075d317527e50e7e1730f0a268280f8afd7bdca602.css integrity="sha256-rZXhnsQ5qFi4QeEHXTF1J+UOfhcw8KJoKA+K/XvcpgI=" rel="preload stylesheet" as=style>
-<link rel=preload href=/verssae.png as=image>
-<link rel=icon href=https://verssae.github.io/verssae.png>
-<link rel=icon type=image/png sizes=16x16 href=https://verssae.github.io/verssae.png>
-<link rel=icon type=image/png sizes=32x32 href=https://verssae.github.io/verssae.png>
-<link rel=apple-touch-icon href=https://verssae.github.io/verssae.png>
-<link rel=mask-icon href=https://verssae.github.io/verssae.png>
-<meta name=theme-color content="#2e2e33">
-<meta name=msapplication-TileColor content="#2e2e33">
-<meta name=generator content="Hugo 0.88.1">
-<link rel=alternate type=application/rss+xml href=https://verssae.github.io/index.xml>
-<link rel=alternate type=application/json href=https://verssae.github.io/index.json>
+<meta name="keywords" content="Blog, Dev, Computer Science" />
+<meta name="description" content="Verssae&#39;s Archives">
+<meta name="author" content="Verssae">
+<link rel="canonical" href="https://verssae.github.io/" />
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.ad95e19ec439a858b841e1075d317527e50e7e1730f0a268280f8afd7bdca602.css" integrity="sha256-rZXhnsQ5qFi4QeEHXTF1J&#43;UOfhcw8KJoKA&#43;K/XvcpgI=" rel="preload stylesheet" as="style">
+<link rel="preload" href="/verssae.png" as="image">
+<link rel="icon" href="https://verssae.github.io/verssae.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://verssae.github.io/verssae.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://verssae.github.io/verssae.png">
+<link rel="apple-touch-icon" href="https://verssae.github.io/verssae.png">
+<link rel="mask-icon" href="https://verssae.github.io/verssae.png">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<meta name="generator" content="Hugo 0.88.1" />
+<link rel="alternate" type="application/rss+xml" href="https://verssae.github.io/index.xml">
+<link rel="alternate" type="application/json" href="https://verssae.github.io/index.json">
 <noscript>
-<style>#theme-toggle,.top-link{display:none}</style>
-<style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--hljs-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style>
-</noscript><meta property="og:title" content="ArchiVerssae">
-<meta property="og:description" content="Verssae's Archives">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://verssae.github.io/"><meta property="og:image" content="https://verssae.github.io/verssae.png"><meta property="og:site_name" content="ArchiVerssae">
-<meta name=twitter:card content="summary_large_image">
-<meta name=twitter:image content="https://verssae.github.io/verssae.png">
-<meta name=twitter:title content="ArchiVerssae">
-<meta name=twitter:description content="Verssae's Archives">
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"Organization","name":"ArchiVerssae","url":"https://verssae.github.io/","description":"Verssae\u0026#39;s Archives","thumbnailUrl":"https://verssae.github.io/verssae.png","sameAs":["mailto:sparky@hanayang.ac.kr","https://open.spotify.com/playlist/36jxtVajLKoskHs8R4uaz1?si=3eb3fb24a9ad4da5","https://github.com/Verssae"]}</script>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="ArchiVerssae" />
+<meta property="og:description" content="Verssae&#39;s Archives" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://verssae.github.io/" /><meta property="og:image" content="https://verssae.github.io/verssae.png"/><meta property="og:site_name" content="ArchiVerssae" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://verssae.github.io/verssae.png"/>
+
+<meta name="twitter:title" content="ArchiVerssae"/>
+<meta name="twitter:description" content="Verssae&#39;s Archives"/>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "ArchiVerssae",
+  "url": "https://verssae.github.io/",
+  "description": "Verssae\u0026#39;s Archives",
+  "thumbnailUrl": "https://verssae.github.io/verssae.png",
+  "sameAs": [
+      "mailto:sparky@hanayang.ac.kr", "https://open.spotify.com/playlist/36jxtVajLKoskHs8R4uaz1?si=3eb3fb24a9ad4da5", "https://github.com/Verssae"
+  ]
+}
+</script>
 </head>
-<body class=list id=top>
-<script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
-<header class=header>
-<nav class=nav>
-<div class=logo>
-<a href=https://verssae.github.io/ accesskey=h title="ArchiVerssae (Alt + H)">
-<img src=/verssae.png alt=logo aria-label=logo height=35>ArchiVerssae</a>
-<span class=logo-switches>
-<button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
-</button>
-</span>
-</div>
-<ul id=menu>
-<li>
-<a href=https://verssae.github.io/archives/ title=Archives>
-<span>Archives</span>
-</a>
-</li>
-<li>
-<a href=https://verssae.github.io/tags/ title=tags>
-<span>tags</span>
-</a>
-</li>
-<li>
-<a href=https://verssae.github.io/search/ title="Search (Alt + /)" accesskey=/>
-<span>Search</span>
-</a>
-</li>
-</ul>
-</nav>
+
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://verssae.github.io/" accesskey="h" title="ArchiVerssae (Alt + H)">
+                <img src="/verssae.png" alt="logo" aria-label="logo"
+                    height="35">ArchiVerssae</a>
+            <span class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </span>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://verssae.github.io/archives/" title="Archives">
+                    <span>Archives</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://verssae.github.io/tags/" title="tags">
+                    <span>tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://verssae.github.io/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
 </header>
-<main class=main>
+<main class="main"> 
 <article class="first-entry home-info">
-<header class=entry-header>
-<h1>Hi, I&rsquo;m Verssae 👋</h1>
-</header>
-<section class=entry-content>
-<p>This is Verssae&rsquo;s Archives</p>
-</section>
-<footer class=entry-footer>
-<div class=social-icons>
-<a href=mailto:sparky@hanayang.ac.kr target=_blank rel="noopener noreferrer me" title=Email><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 21" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1.0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1.0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-</a>
-<a href="https://open.spotify.com/playlist/36jxtVajLKoskHs8R4uaz1?si=3eb3fb24a9ad4da5" target=_blank rel="noopener noreferrer me" title=Spotify><svg fill="currentcolor" stoke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 0C5.4.0.0 5.4.0 12s5.4 12 12 12 12-5.4 12-12S18.66.0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6s.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg>
-</a>
-<a href=https://github.com/Verssae target=_blank rel="noopener noreferrer me" title=Github><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37.0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44.0 0020 4.77 5.07 5.07.0 0019.91 1S18.73.65 16 2.48a13.38 13.38.0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07.0 005 4.77 5.44 5.44.0 003.5 8.55c0 5.42 3.3 6.61 6.44 7A3.37 3.37.0 009 18.13V22"/></svg>
-</a>
+    <header class="entry-header">
+        <h1>Hi, I&rsquo;m Verssae 👋</h1>
+    </header>
+    <section class="entry-content">
+        <p>This is Verssae&rsquo;s Archives</p>
+    </section>
+    <footer class="entry-footer">
+        <div class="social-icons">
+    <a href="mailto:sparky@hanayang.ac.kr" target="_blank" rel="noopener noreferrer me" title="Email">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 21" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+    <polyline points="22,6 12,13 2,6"></polyline>
+</svg>
+    </a>
+    <a href="https://open.spotify.com/playlist/36jxtVajLKoskHs8R4uaz1?si=3eb3fb24a9ad4da5" target="_blank" rel="noopener noreferrer me" title="Spotify">
+        <svg fill="currentColor" stoke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path
+        d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z" />
+</svg>
+    </a>
+    <a href="https://github.com/Verssae" target="_blank" rel="noopener noreferrer me" title="Github">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+    </path>
+</svg>
+    </a>
 </div>
+
+    </footer>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>[Python] Discord Webhook으로 학습 종료 시 알림 보내기
+    </h2>
+  </header>
+  <section class="entry-content">
+    <p>Python에서 학습 종료 시 알람을 discord-webhook을 사용하여 구현하기</p>
+  </section>
+  <footer class="entry-footer">October 12, 2021&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Verssae</footer>
+  <a class="entry-link" aria-label="post link to [Python] Discord Webhook으로 학습 종료 시 알림 보내기" href="https://verssae.github.io/posts/py-discord-webhook/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>[Python] 데스크톱 알림 보내기
+    </h2>
+  </header>
+  <section class="entry-content">
+    <p>Python으로 데스크톱 푸시 알림을 보내보자</p>
+  </section>
+  <footer class="entry-footer">October 3, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Verssae</footer>
+  <a class="entry-link" aria-label="post link to [Python] 데스크톱 알림 보내기" href="https://verssae.github.io/posts/py-notifier/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>ASE 2020 트렌드 조사
+    </h2>
+  </header>
+  <section class="entry-content">
+    <p>ASE 2020 논문들의 타이틀 및 초록을 보고 트렌드를 파악한다.</p>
+  </section>
+  <footer class="entry-footer">September 30, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Verssae</footer>
+  <a class="entry-link" aria-label="post link to ASE 2020 트렌드 조사" href="https://verssae.github.io/posts/ase2020trend/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>ASE 2021 트렌드 조사
+    </h2>
+  </header>
+  <section class="entry-content">
+    <p>ASE 2021 논문들의 타이틀 및 초록을 보고 트렌드를 파악한다.</p>
+  </section>
+  <footer class="entry-footer">September 29, 2021&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Verssae</footer>
+  <a class="entry-link" aria-label="post link to ASE 2021 트렌드 조사" href="https://verssae.github.io/posts/ase2021trend/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Hugo-blog (README)
+    </h2>
+  </header>
+  <section class="entry-content">
+    <p>Hugo로 블로그 만들기</p>
+  </section>
+  <footer class="entry-footer">September 28, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Verssae</footer>
+  <a class="entry-link" aria-label="post link to Hugo-blog (README)" href="https://verssae.github.io/posts/hugo/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="next" href="https://verssae.github.io/page/2/">Next Page »</a>
+  </nav>
 </footer>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>[Python] Discord Webhook으로 학습 종료 시 알림 보내기
-</h2>
-</header>
-<section class=entry-content>
-<p>Python에서 학습 종료 시 알람을 discord-webhook을 사용하여 구현하기</p>
-</section>
-<footer class=entry-footer>October 12, 2021&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Verssae</footer>
-<a class=entry-link aria-label="post link to [Python] Discord Webhook으로 학습 종료 시 알림 보내기" href=https://verssae.github.io/posts/py-discord-webhook/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>[Python] 데스크톱 알림 보내기
-</h2>
-</header>
-<section class=entry-content>
-<p>Python으로 데스크톱 푸시 알림을 보내보자</p>
-</section>
-<footer class=entry-footer>October 3, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Verssae</footer>
-<a class=entry-link aria-label="post link to [Python] 데스크톱 알림 보내기" href=https://verssae.github.io/posts/py-notifier/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>ASE 2020 트렌드 조사
-</h2>
-</header>
-<section class=entry-content>
-<p>ASE 2020 논문들의 타이틀 및 초록을 보고 트렌드를 파악한다.</p>
-</section>
-<footer class=entry-footer>September 30, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Verssae</footer>
-<a class=entry-link aria-label="post link to ASE 2020 트렌드 조사" href=https://verssae.github.io/posts/ase2020trend/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>ASE 2021 트렌드 조사
-</h2>
-</header>
-<section class=entry-content>
-<p>ASE 2021 논문들의 타이틀 및 초록을 보고 트렌드를 파악한다.</p>
-</section>
-<footer class=entry-footer>September 29, 2021&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Verssae</footer>
-<a class=entry-link aria-label="post link to ASE 2021 트렌드 조사" href=https://verssae.github.io/posts/ase2021trend/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Hugo-blog (README)
-</h2>
-</header>
-<section class=entry-content>
-<p>Hugo로 블로그 만들기</p>
-</section>
-<footer class=entry-footer>September 28, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Verssae</footer>
-<a class=entry-link aria-label="post link to Hugo-blog (README)" href=https://verssae.github.io/posts/hugo/></a>
-</article>
-<footer class=page-footer>
-<nav class=pagination>
-<a class=next href=https://verssae.github.io/page/2/>Next Page »</a>
-</nav>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2021 <a href="https://verssae.github.io/">ArchiVerssae</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a>
+    </span>
 </footer>
-</main>
-<footer class=footer>
-<span>&copy; 2021 <a href=https://verssae.github.io/>ArchiVerssae</a></span>
-<span>
-Powered by
-<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
-        <a href=https://git.io/hugopapermod rel=noopener target=_blank>PaperMod</a>
-</span>
-</footer>
-<a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
 </a>
-<script>let menu=document.getElementById('menu');menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)},document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener("click",function(b){b.preventDefault();var a=this.getAttribute("href").substr(1);window.matchMedia('(prefers-reduced-motion: reduce)').matches?document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView({behavior:"smooth"}),a==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${a}`)})})</script>
-<script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script>
-<script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove('dark'),localStorage.setItem("pref-theme",'light')):(document.body.classList.add('dark'),localStorage.setItem("pref-theme",'dark'))})</script>
+
+<script>
+    let menu = document.getElementById('menu')
+    menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+    menu.onscroll = function () {
+        localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
 </body>
+
 </html>
