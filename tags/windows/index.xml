@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>python on ArchiVerssae</title>
-    <link>https://verssae.github.io/tags/python/</link>
-    <description>Recent content in python on ArchiVerssae</description>
+    <title>windows on ArchiVerssae</title>
+    <link>https://verssae.github.io/tags/windows/</link>
+    <description>Recent content in windows on ArchiVerssae</description>
     <image>
       <url>https://verssae.github.io/verssae.png</url>
       <link>https://verssae.github.io/verssae.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 18 Oct 2021 11:53:20 +0900</lastBuildDate><atom:link href="https://verssae.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Oct 2021 11:53:20 +0900</lastBuildDate><atom:link href="https://verssae.github.io/tags/windows/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[Python] Windows 환경 설정</title>
       <link>https://verssae.github.io/posts/python-windows-configure/</link>
@@ -20,15 +20,6 @@
 Python 위주로 Windows 개발 환경 설정을 정리해본다.
 Python 가상환경 Python 가상환경은 지금까지 Anaconda로 관리해오다가, 최근 venv 및 pipenv 등 다른 가상환경 관리자를 알게되어 Pipfile로 가상환경 및 패키지 관리를 하는 pipenv를 눈여겨보고 있었다.
 특히 이번 Windows 11로 설치하고 나서 PowerShell에서 Anaconda가 잘 작동하지 않아 (https 관련 에러가 계속 나는데 해결하지 못함ㅠ) 이번 기회에 확실히 Pipenv를 사용해보고자 마음먹었다.</description>
-    </item>
-    
-    <item>
-      <title>[Python] Discord Webhook으로 학습 종료 시 알림 보내기</title>
-      <link>https://verssae.github.io/posts/py-discord-webhook/</link>
-      <pubDate>Tue, 12 Oct 2021 17:38:24 +0900</pubDate>
-      
-      <guid>https://verssae.github.io/posts/py-discord-webhook/</guid>
-      <description>Python에서 학습 종료 시 알람을 discord-webhook을 사용하여 구현하기</description>
     </item>
     
   </channel>

@@ -2,32 +2,67 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://verssae.github.io/</loc>
+    <lastmod>2021-10-18T12:33:12+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://verssae.github.io/tags/cuda/</loc>
+    <lastmod>2021-10-18T12:33:12+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://verssae.github.io/posts/cusolver64_11.dll-err/</loc>
+    <lastmod>2021-10-18T12:33:12+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://verssae.github.io/tags/error/</loc>
+    <lastmod>2021-10-18T12:33:12+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://verssae.github.io/posts/</loc>
+    <lastmod>2021-10-18T12:33:12+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://verssae.github.io/tags/</loc>
+    <lastmod>2021-10-18T12:33:12+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://verssae.github.io/tags/tensorflow/</loc>
+    <lastmod>2021-10-18T12:33:12+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://verssae.github.io/posts/cudart64_110.dll-err/</loc>
+    <lastmod>2021-10-18T12:23:43+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://verssae.github.io/posts/python-windows-configure/</loc>
+    <lastmod>2021-10-18T11:53:20+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://verssae.github.io/tags/python/</loc>
+    <lastmod>2021-10-18T11:53:20+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://verssae.github.io/tags/windows/</loc>
+    <lastmod>2021-10-18T11:53:20+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://verssae.github.io/posts/py-discord-webhook/</loc>
     <lastmod>2021-10-12T17:38:24+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://verssae.github.io/</loc>
-    <lastmod>2021-10-12T17:38:24+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://verssae.github.io/tags/discord-webhook/</loc>
-    <lastmod>2021-10-12T17:38:24+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://verssae.github.io/posts/</loc>
-    <lastmod>2021-10-12T17:38:24+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://verssae.github.io/tags/python/</loc>
-    <lastmod>2021-10-12T17:38:24+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://verssae.github.io/tags/</loc>
     <lastmod>2021-10-12T17:38:24+09:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
